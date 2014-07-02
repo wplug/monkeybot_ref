@@ -1,0 +1,1538 @@
+head	1.43;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.43
+date	2003.12.27.17.21.00;	author jeremy;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2003.11.30.05.58.03;	author jeremy;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2003.11.30.05.46.26;	author jeremy;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2003.04.15.03.18.47;	author jeremy;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2003.04.12.15.55.52;	author jeremy;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2003.04.12.15.52.42;	author jeremy;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2002.12.16.03.43.37;	author jeremy;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2002.05.27.02.20.13;	author jeremy;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2002.04.25.17.24.03;	author jeremy;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2002.04.22.02.50.59;	author falken;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2002.04.22.02.38.54;	author falken;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2002.04.16.15.47.25;	author falken;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2002.01.01.22.07.41;	author jeremy;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2002.01.01.22.06.33;	author jeremy;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2002.01.01.18.37.25;	author jeremy;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2002.01.01.06.11.35;	author jeremy;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2002.01.01.06.04.19;	author jeremy;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2002.01.01.06.01.40;	author jeremy;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2001.12.25.02.33.33;	author jeremy;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2001.12.25.02.31.00;	author jeremy;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2001.12.24.20.31.09;	author jeremy;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2001.12.16.01.49.35;	author jeremy;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2001.12.16.01.40.02;	author jeremy;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2001.12.15.20.15.54;	author jeremy;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2001.12.12.13.49.00;	author jeremy;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2001.12.11.03.11.38;	author jeremy;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2001.12.11.00.24.10;	author jeremy;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2001.12.10.19.53.30;	author jeremy;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2001.12.10.05.11.34;	author jeremy;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2001.12.10.04.00.36;	author jeremy;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2001.12.10.03.27.00;	author jeremy;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2001.12.10.01.42.05;	author jeremy;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2001.12.10.01.30.21;	author jeremy;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2001.12.10.01.08.29;	author jeremy;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2001.12.04.03.18.39;	author jeremy;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2001.11.30.16.21.35;	author jeremy;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2001.11.30.16.17.32;	author jeremy;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2001.11.28.04.42.32;	author jeremy;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2001.11.27.16.01.44;	author jeremy;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2001.11.26.05.39.33;	author jeremy;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2001.11.26.03.27.07;	author jeremy;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2001.11.26.03.07.38;	author jeremy;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2001.11.26.03.07.05;	author jeremy;	state Exp;
+branches;
+next	;
+
+
+desc
+@init
+@
+
+
+1.43
+log
+@Update to dictionary fun
+@
+text
+@# Infobot user extension stubs 
+# $Id: myRoutines.pl,v 1.42 2003/11/30 05:58:03 jeremy Exp jeremy $
+
+use DBI;
+use Net::Dict;
+
+# Dictionary information
+@@dictOptions = qw(elements web1913 wn gazetteer jargon foldoc easton hitchcock devils world02 vera);
+$dictServer = "dict.org";
+$dictdb = "wn"; # Default database
+
+# put your routines in here.
+
+@@howAreYa = ("just great", "peachy", "mas o menos", 
+	 "you know how it is", "eh, ok", "pretty good. how about you");
+
+@@factoid = ("what\'s that you want?", 
+            "Quiet you! I don't feel like reciting a fact right now.",
+	    "I\'m just a bot...",
+	    "Why don\'t you say something witty?"
+	   );
+
+# Idle out in X seconds (22 minutes)
+$IDLE_OUT = 1320;
+
+# Word length for WOTD game
+$WOTD_LENGTH = 4;
+
+# Maximum number of times to go off about a subject
+$MAX_CONVERSE = 8;
+
+
+sub myRoutines {
+    # called after it decides if it's been addressed.
+    # you have access tothe global variables here, 
+    # which is bad, but anyway.
+
+    # you can return 'NOREPLY' if you want to stop
+    # processing past this point but don't want 
+    # an answer. if you don't return NOREPLY, it
+    # will let all the rest of the default processing
+    # go to it. think of it as 'catching' the event.
+
+    # $addressed is whether the infobot has been 
+    #			named or, if a private or standalone
+    #			context, addressed is always 'true'
+
+    # $msgType can be 'public', 'private', maybe 'dcc_chat'
+
+    # $who is the sender of the message
+
+    # $message is the current state of the input, after
+    #		  the addressing stuff stripped off the name
+
+    # $origMessage is the text of the original message before
+    #			  any normalization or processing
+
+    # you have access to all the routines in urlIrc.pl too,
+    # of course.
+
+    # example:
+
+    # Give the bot a method to strike up conversations
+	$last_comment = time;
+	$SIG{ALRM}    = sub { &say(&make_random_statement(&rand_db())); };
+    alarm($IDLE_OUT);
+	
+    if ($addressed) {
+	   # only if the infobot is addressed
+	   if ($message =~ /how (the hell )?are (ya|you)( doin\'?g?)?\?*$/) {
+	      return $howAreYa[rand($#howAreYa)];
+	   }elsif($message =~ /factoid$/){
+
+          my $val = &make_random_statement(&rand_db());
+		  return $val;
+	   # Copy the word of the day to $wotd
+	   }elsif($message =~ /wotd ([a-z0-9]+)+/){
+	      my $tmp = $1;
+	      if(length($tmp) >= $WOTD_LENGTH){ 
+		     $WOTD = $tmp;
+	         $WOTD_AGE = time;
+			 $WOTD_USER = $who;
+			 &log_new_WOTD($WOTD,$who);
+			 return ("Gotcha. Word of the day saved ($WOTD).");
+		  }
+	   }elsif($message =~ /what is the wotd\?/i){
+		  
+	      return ("$who: The word is $WOTD. I learned it from $WOTD_USER on " . strftime("%c",localtime($WOTD_AGE)) ) if $WOTD;
+		  return ("$who: I have not picked a word, yet.");
+	   }elsif($message =~ /tell (.*) about (.*)/i){
+	      # TODO make tell_user send /msgs, but ensure that the people are in
+		  # the channel before doing this ... no telling to people outside of
+		  # #wplug
+	      &tell_user($1,$2);
+	      return "NOREPLY";
+	   }elsif($message =~ /kick (.*)\'s ass[!]+$/i){
+              &say("\cAACTION kicks $1\'s ass! \cA");   
+              return("NOREPLY");
+       
+	   # TODO broken ... 
+	   # Check for request to being a converstation
+#       }elsif ($message =~ /converse\s+(.*)/i){  
+#          &converse($1);
+#	      return "NOREPLY";
+
+       } 
+
+
+# NOTE: From here on out, we are not being addressed!
+	
+	} else {
+	# we haven't been addressed, but we are still listening
+	    if($message =~ /$WOTD/i){
+		   my $statement = &exclaim_wotd();
+		   if($statement !~ /^\s*$/) {
+		   	&say($statement);
+		   }
+		   return "NOREPLY";
+		}
+
+    }
+
+    if($message =~ /seattle (time|date)/i){
+	$date = `date --date='3 hours ago' '+%a, %d %b %Y %R:%S -0700'`;
+	chomp($date);
+	return("$who: In Seattle, the time is $date\n");
+    }
+
+    if($message =~ /^\S*:?define [ \S]+/i){
+	&say("$who: OK ... checking on that for you.");
+    	my @@response = &dictionary($message);
+	if($#response < 0){
+		return("$who: Sorry, I don't know anything about that.");
+	}else{
+		foreach $reply (@@response){
+			&msg($who, "$reply") if ($reply !~ /^[\s\n]*$/);
+		}
+	}
+	return "NOREPLY";
+    }
+	
+    # another example: rot13 
+    #if ($message =~ /^rot13\s+(.*)/i) {
+	#   # rot13 it
+	#   my $reply = $1;
+	#   $reply =~ y/A-Za-z/N-ZA-Mn-za-m/;
+	#   return $reply;
+    #}
+
+    # Scan for words to use for the wotd
+	# but don't be too agressive. This will prevent the user from guessing the
+	# word out of something that was recently said. Be sure not to use words 
+	# when $who is not known.
+	if(!$WOTD && ($who ne "") && (int(rand(100)) < 2)){
+	   my @@tmp = split(/\s/,$message);
+	   @@tmp = grep(/.../,@@tmp); # Remove the words that are <= 3 chars long
+	   $WOTD = $tmp[rand($#tmp)];
+       $WOTD_AGE = time;
+	   $WOTD_USER = $who;
+	   if(length($WOTD) <= $WOTD_LENGTH){
+	      $WOTD = undef;
+		  $WOTD_AGE = undef;
+		  $WOTD_USER = undef;
+	   }else{
+	      &log_new_WOTD($WOTD,$who);
+  	      #&say("I just set $WOTD as the wotd");
+	   }
+	}
+
+	# Age out today's word of the day
+	if($WOTD_AGE && (time - $WOTD_AGE) > 86400){ # There are 86,400 seconds in one day
+	   #&say("The wotd ($WOTD) just expired.");
+	   $WOTD = undef;
+	   $WOTD_AGE = undef;
+	   $WOTD_USER = undef;
+	}
+
+
+	
+
+# I've commented these commands out, since the mysql database
+# is no longer online.  
+# --Tue Feb  4 13:34:47 EST 2003
+# --billings
+#    if($message =~ /^(when is the )?next (meeting|GUM|install)\?/i){
+#	   &report_meeting_information($2);
+#	   return "Make a note of it!";
+#	}
+#	if($message =~ /^wplug news/i){
+#	    &report_news_listing();
+#		return "";
+#    }
+#	if($message =~ /^read wplug news ([0-9]+)+/i){
+#	    &report_news_information($1);
+#		return "";
+#    }
+	
+    return undef;	# do nothing and let the other routines have a go
+    # Extras.pl is called next; look there for more complex examples.
+}
+
+sub report_meeting_information($type){
+   
+   my $type = shift;
+   my $statement = "";
+   my $sth; my $dbh;
+   
+   return unless $type;
+
+   my $dbh = DBI->connect("DBI:mysql:announcements", 'announcements','midnight' ) || return $dbh->errstr;
+   
+   $statement = "SELECT * from announcements ORDER BY serial DESC LIMIT 1";
+   $sth = $dbh->prepare($statement) || return  $dbh->errstr;
+   $sth->execute();
+   my $ref = $sth->fetchrow_hashref();
+
+   SWITCH: {
+     if($type =~ /(meeting|GUM)/i){
+        &say("$who: The next meeting is on " . $ref->{'nextmeeting'});
+		&say("Where: " . $ref->{'nextmeetingloc'});
+		&say($ref->{'meetingdetails'});
+
+        last SWITCH;
+	 }
+	 if($type =~ /install/){
+        &say("$who: The next install fest is on " . $ref->{'nextfest'});
+		&say("Where: " . $ref->{'nextfestloc'});
+		&say($ref->{'festdetails'});
+
+	    last SWITCH;
+     }
+	 
+   }
+   
+   $sth->finish();
+
+   # Disconnect from the database.
+   $dbh->disconnect();
+
+   return;
+}
+
+# Get a request from the user and list the news headers
+sub report_news_listing(){
+
+   my $statement = "";
+   my $sth; my $dbh;
+
+   my $dbh =  DBI->connect("DBI:mysql:web", 'web','midnight' ) || return $dbh->errstr;
+   $statement = "SELECT id,title,date FROM news ORDER BY id DESC LIMIT 5";
+   $sth = $dbh->prepare($statement) || return  $dbh->errstr;
+   $sth->execute();
+   &msg($who, "News for #wplug");
+   while(my $ref = $sth->fetchrow_hashref()){
+      &msg($who, "[$ref->{id}] $ref->{title} ($ref->{date})");
+   }
+   &msg($who, "use 'read wplug news <#>' to view the specific item");
+
+   $dbh->disconnect;
+   return undef;
+
+}
+
+# Get a news item based on the id
+sub report_news_information($id){
+   
+   my $id = shift;
+   my $statement = "";
+   my $sth; my $dbh;
+   
+   my $dbh = DBI->connect("DBI:mysql:web", 'web','midnight' ) || return $dbh->errstr;
+   
+   $statement = "SELECT title,date,author,author_email,text from news ";
+
+   if($id){ $statement .= " WHERE id=\"$id\" "; }
+
+   $statement .= "ORDER BY id DESC LIMIT 1";
+   
+   $sth = $dbh->prepare($statement) || return  $dbh->errstr;
+   $sth->execute();
+   my $ref = $sth->fetchrow_hashref();
+
+   if($ref->{author} && $ref->{date} && $ref->{text}){
+      &msg($who, $ref->{author} . " stated on " .$ref->{date} ." ". $ref->{text});
+   }else{
+      &msg($who, "I\'m sorry, but that news item is not available.");
+   }
+
+   $sth->finish();
+
+   # Disconnect from the database.
+   $dbh->disconnect();
+
+   return;
+}
+
+sub exclaim_wotd{
+
+   $reply = "";
+   if(length($WOTD) >= $WOTD_LENGTH){
+      &say("$who: You said the word! It was \"$WOTD!\"\nI had learned that word from $WOTD_USER on " . strftime("%c",localtime($WOTD_AGE)));
+	  $reply = "That was fun. I\'ll pick a new word.";
+   }
+   $WOTD = undef;
+   $WOTD_AGE = undef;
+   $WOTD_USER = undef;
+   return($reply);
+
+}
+
+sub make_random_statement {
+
+   my ($dbname, $key, $no_locking,$val,$ans);
+
+   $dbname = shift;
+
+   my $rdb = $DBMS{$dbname};
+   my @@key_array = getDBMKeys($dbname);
+
+   srand(time);
+   $key = int(rand $#key_array);
+
+   # Give the following a couple of shots .. if it doesn't work, give up.
+   my $count = 0;
+   do{
+      $count++;
+
+	  # Sometimes, bots have many <reply> and $who responses
+      if($count == 5){ # Attempt another random jump
+	     srand(time);
+		 $key = int(rand $#key_array);
+	  }
+
+	  # Move ahead by one .. we'll do this so fast that resetting the rand
+	  # by time will probably give us the same number again
+      $key = ($key++) % $#key_array;
+
+      $val = $key_array[$key] . " $dbname ";
+      $ans = &get($dbname,$key_array[$key]);
+   }
+   while($ans =~ /(\<reply\>|\$who)+/gi && $count < 10);
+   
+   if($count >= 10){
+      $val = $factoid[rand($#factoid)];
+	  $ans = "";
+   }
+   
+   return ($val . &split_up_data($ans));
+
+}
+
+# Pick a db at random and return it
+sub rand_db(){
+
+ @@db = ("is", "are");
+ return $db[rand($#db +1)];
+
+}
+
+# Tell a user about something we learned
+sub tell_user($user,$factoid){
+  my $user = shift;
+  my $factoid = shift;
+  my ($dbname, $db ,$val,$ans);
+
+  return unless ($who && $user && $factoid);
+  
+  $db = "is";
+  $ans = &get($db,$factoid);
+
+  if(!$ans){
+     $db = "are";
+	 $ans = &get($db,$factoid);
+  }
+
+  if($ans){
+	 $ans = &split_up_data($ans);
+     &say("$user: $who told me to tell you that $factoid $db $ans");
+  }
+
+  return;
+}
+
+# Because date may be formatted as "also |"'s
+sub split_up_data($data){
+
+   my $data = shift;
+
+   return $data unless($data =~ /\|/);
+
+   my(@@ans) = split(/\|/, $data);
+
+   return($ans[int (rand($#ans))]);
+
+}
+
+# Debugging log
+sub log_new_WOTD($WOTD,$who){
+
+    my $WOTD = shift;
+    my $who  = shift;
+
+    open(LOG, ">>/tmp/monkeybot-wotd.log");
+    print LOG "monkeybot($$) $WOTD learned from $who on " .  strftime("%c",localtime(time)) ."\n";
+    close(LOG);
+
+}
+
+# Try to build a conversation from phrases that have been learned
+sub converse{
+
+   my $about = shift;
+   my $printed = 0;
+   my $counter = 0;
+
+   &msg("Gerr","trying to converse about \"$about\"");
+   
+   # Try to get  a factoid
+   $factoid = &pick_factoid($about);
+
+
+   # We should now have a factoid; copy out one of the items
+   $factoid = &split_up_data($factoid);
+   
+   return if $factoid =~ /^$/;
+   &msg("Gerr","GOT (1st try): $factoid");
+   
+   # TODO add in a controlled loop here ... 
+   do{
+      
+      $printed = 0;
+	  $counter++;
+
+      # Pick a word out of the value part of the key value pair
+      @@factoids = split(/\s/,$factoid);
+      
+      # Clear our current factoid
+      $old_factoid = $factoid;
+      $factoid = "";
+
+      for(my $i = 0; $i <= $#factoids; $i++){
+		  next if(length(@@factoids[$i]) <= 3);
+		  $about = @@factoids[$i];
+	      &msg("Gerr", "Examining \"$about\"");
+	      $factoid = &pick_factoid($about);
+          $factoid = &split_up_data($about);
+		  next if (!$factoid); 
+		  &msg("Gerr", "Answer: $factoid");
+	      if(($factoid) && ($factoid !~ /$old_factoid/)){
+#			 &msg("Gerr", "Going to go with: $factoid");
+#		  }if ($factoid !~ $old_factoid){ # Got a factoid!
+			 &msg("Gerr", "Going to go with: $factoid -- 2");
+			 $i = $#factoids + 10;
+		  }
+	  }
+	  
+
+      &msg("Gerr","GOT (try #$counter): $factoid");
+	  if($factoid !~ /$old_factoid/){
+	     $printed = 1;
+         &msg("Gerr", $factoid);
+	  }
+
+	  if($factoid =~ /^$/){
+	     &msg("Gerr", "Giving up on this conversation...");
+		 return "NOREPLY";
+	  }
+
+   }while($counter < $MAX_CONVERSE && $printed);
+
+   # TODO end controlled loop
+   
+   return "NOREPLY";
+   
+
+}
+
+sub pick_factoid($key){
+   my $key = shift;
+   my $factoid = "";
+   my ($db, $dbname);
+
+   $key =~ /([a-z0-9\-]+)+/i;
+   $key = $1;
+
+   if($key =~ /^$/){
+      $factoid = &make_random_statement("is");
+	  $factoid = &make_random_statement("are") unless ($factoid != "");
+   }else{
+	   sleep(2);
+       $db = "is";
+	   $factoid = &get($db,$key);
+	   if(!$factoid){
+		  $db = "are";
+		  $factoid = &get($db,$key);
+	   }
+
+   }
+   if(length($factoid) < 3){
+      if($key){
+         &say("$who: I don't know anything about $key.");
+	  }
+      return "";
+   }
+   
+   # put it all together ...
+   $factoid = "$key $db $factoid";
+   return ($factoid);
+}
+
+sub dictionary($){
+	
+	my $command = shift;
+	my $word;
+	my $dict;
+	my $db = $dictdb;
+	my $dref;
+	my $def;
+
+	if($command =~ /define (\S+) ([ \S]+)/) {
+		$db   = $1;
+		$word = $2;
+
+		if(! grep(/$db/, @@dictOptions))
+		{
+			return &dictUsage;
+		}
+	}elsif($command =~ /define ([ \S]+)/){
+		$word = $1;
+		if($word =~ /^(help)$/)
+		{
+			return &dictUsage;
+		}
+	}else{
+		return;
+	}
+
+	$dict = Net::Dict->new($dictServer);
+	$dref = $dict->define($word , $db);
+
+	# Take only one entry ... override the rest
+	foreach $i (@@{$dref}){
+		($db, $def) = @@{$i};
+	}
+
+	return $def;
+
+}
+
+sub dictUsage{
+
+	my $help = "";
+	$help =  "I only know how to look up words in these dictionaries: ";
+	foreach(@@dictOptions){ $help .= "$_ "; }
+	$help .= "\nWhy don't you try again? 'define [db] statement'";
+
+	return $help;
+
+}
+
+1;
+
+@
+
+
+1.42
+log
+@Removal of a little bug
+@
+text
+@d2 1
+a2 1
+# $Id: myRoutines.pl,v 1.41 2003/11/30 05:46:26 jeremy Exp jeremy $
+d130 1
+d132 6
+a137 2
+	foreach $reply (@@response){
+		&msg($who, "$reply") if ($reply !~ /^[\s\n]*$/);
+@
+
+
+1.41
+log
+@dictionary lookup + minor tweaks for word of the [not exactly] day
+@
+text
+@d2 1
+a2 1
+# $Id: myRoutines.pl,v 1.40 2003/04/15 03:18:47 jeremy Exp jeremy $
+d129 1
+a129 1
+    if($message =~ /define [ \S]+/i){
+@
+
+
+1.40
+log
+@updated time
+@
+text
+@d2 1
+a2 1
+# $Id: myRoutines.pl,v 1.39 2003/04/12 15:55:52 jeremy Exp jeremy $
+d5 6
+d19 3
+a21 3
+			"I\'m just a bot...",
+			"Why don\'t you say something witty?"
+			);
+d88 2
+a89 2
+	      return ("$who: The word of the day is $WOTD. I learned it from $WOTD_USER on " . strftime("%c",localtime($WOTD_AGE)) ) if $WOTD;
+		  return ("$who: I have not picked a word of the day, today.");
+d106 1
+a106 1
+       }
+d114 4
+a117 1
+		   &say( &exclaim_wotd() );
+d128 8
+d294 1
+d296 1
+a296 1
+      &say("$who: You said the word of the day! It was \"$WOTD!\"\nI had learned that word from $WOTD_USER on " . strftime("%c",localtime($WOTD_AGE)));
+d504 50
+@
+
+
+1.39
+log
+@seattle time
+@
+text
+@d2 1
+a2 1
+# $Id: myRoutines.pl,v 1.38 2003/04/12 15:52:42 jeremy Exp jeremy $
+d115 1
+a115 1
+	$date = `date --date='3 hours ago' -R`;
+@
+
+
+1.38
+log
+@updates by billings
+@
+text
+@d2 1
+a2 1
+# $Id: myRoutines.pl,v 1.37 2002/12/16 03:43:37 jeremy Exp $
+d113 6
+a156 1
+    #} # Endif !$addressed
+a157 1
+	# Addressed or not, respone to these queries
+@
+
+
+1.37
+log
+@simple change to quote the WOTD
+@
+text
+@d2 1
+a2 1
+# $Id: myRoutines.pl,v 1.36 2002/05/27 02:20:13 jeremy Exp jeremy $
+d154 17
+a170 12
+    if($message =~ /^(when is the )?next (meeting|GUM|install)\?/i){
+	   &report_meeting_information($2);
+	   return "Make a note of it!";
+	}
+	if($message =~ /^wplug news/i){
+	    &report_news_listing();
+		return "";
+    }
+	if($message =~ /^read wplug news ([0-9]+)+/i){
+	    &report_news_information($1);
+		return "";
+    }
+@
+
+
+1.36
+log
+@some lame and broken code for conversations
+@
+text
+@d2 1
+a2 1
+# $Id: myRoutines.pl,v 1.35 2002/04/25 17:24:03 jeremy Exp jeremy $
+d269 1
+a269 1
+      &say("$who: You said the word of the day! It was $WOTD!\nI had learned that word from $WOTD_USER on " . strftime("%c",localtime($WOTD_AGE)));
+@
+
+
+1.35
+log
+@added ass kicking command.
+@
+text
+@d2 1
+a2 1
+# $Id: myRoutines.pl,v 1.34 2002/04/22 02:50:59 falken Exp jeremy $
+d23 3
+d93 9
+a101 1
+           } 
+d103 2
+d112 2
+d115 6
+a120 7
+
+    if ($message =~ /^rot13\s+(.*)/i) {
+	   # rot13 it
+	   my $reply = $1;
+	   $reply =~ y/A-Za-z/N-ZA-Mn-za-m/;
+	   return $reply;
+    }
+d151 1
+a151 1
+    } # Endif !$addressed
+d375 102
+@
+
+
+1.34
+log
+@the word boundary on WOTD messed things up
+@
+text
+@d2 1
+a2 1
+# $Id: myRoutines.pl,v 1.33 2002/04/22 02:38:54 falken Exp falken $
+d87 4
+a90 1
+	   }
+d92 1
+a92 1
+    } else {
+@
+
+
+1.33
+log
+@debug for WOTD
+@
+text
+@d2 1
+a2 1
+# $Id: myRoutines.pl,v 1.32 2002/04/16 15:47:25 falken Exp falken $
+d91 1
+a91 1
+	    if($message =~ /\b$WOTD\b/i){
+d93 1
+@
+
+
+1.32
+log
+@added boundaries to WOTD care of billings
+also took billings changes and put them into RCS
+@
+text
+@d2 1
+a2 1
+# $Id: myRoutines.pl,v 1.31 2002/01/01 22:07:41 jeremy Exp $
+d74 1
+d118 3
+a121 1
+	   #&say("I just set $WOTD as the wotd");
+d344 12
+@
+
+
+1.31
+log
+@added comment for TODO item
+,.
+@
+text
+@d2 1
+a2 1
+# $Id: myRoutines.pl,v 1.30 2002/01/01 22:06:33 jeremy Exp jeremy $
+d14 1
+a14 9
+			"Go stinky monkey go -- Bubble up, bubbly monkey!",
+			"Where are you going funny monkey? Yes, you are so shiney. Clean underpants welcome you.",
+			"I smell someone\'s monkey feet!",
+			"Oh, they\'re nice like monkey bubbles!",
+			"Focus the nostrils to monkey fun holes for pleased flavor flaring.",
+			"Fun times for you and all bubble monkeys!",
+			"Bubble monkeys just love fascinating scent combinations -- like a fresh bathroom breeze. Rub on and rinse! Let the suds go where they want!",
+			"Squeaky clean monkeys make everyday happy!",
+			"Why don\'t you say something whitty?"
+d90 1
+a90 1
+	    if($message =~ /$WOTD/i){
+@
+
+
+1.30
+log
+@made monkeybot "tell" command
+@
+text
+@d2 1
+a2 1
+# $Id: myRoutines.pl,v 1.29 2002/01/01 18:37:25 jeremy Exp jeremy $
+d89 3
+@
+
+
+1.29
+log
+@squish squish ... old news bug
+@
+text
+@d2 1
+a2 1
+# $Id: myRoutines.pl,v 1.28 2002/01/01 06:11:35 jeremy Exp jeremy $
+d88 3
+d300 1
+a300 1
+   return ($val . $ans);
+d309 37
+@
+
+
+1.28
+log
+@more WOTD bug squishes
+@
+text
+@d2 1
+a2 1
+# $Id: myRoutines.pl,v 1.27 2002/01/01 06:04:19 jeremy Exp jeremy $
+d233 5
+a237 1
+   &msg($who, $ref->{author} . " stated on " .$ref->{date} ." ". $ref->{text});
+@
+
+
+1.27
+log
+@Squishing WOTD bug
+@
+text
+@d2 1
+a2 1
+# $Id: myRoutines.pl,v 1.26 2002/01/01 06:01:40 jeremy Exp jeremy $
+a93 1
+		   return "That was fun. I\'ll pick a new word.";
+d246 2
+a247 1
+      $reply = "$who: You said the word of the day! It was $WOTD!\nI had learned that word from $WOTD_USER on " . strftime("%c",localtime($WOTD_AGE));
+@
+
+
+1.26
+log
+@wplug news reader
+@
+text
+@d2 1
+a2 1
+# $Id: myRoutines.pl,v 1.25 2001/12/25 02:33:33 jeremy Exp jeremy $
+d246 3
+a248 1
+   $reply = "$who: You said the word of the day! It was $WOTD!\nI had learned that word from $WOTD_USER on " . strftime("%c",localtime($WOTD_AGE));
+@
+
+
+1.25
+log
+@Changed some stuff around for random saying selection
+@
+text
+@d2 1
+a2 1
+# $Id: myRoutines.pl,v 1.24 2001/12/25 02:31:00 jeremy Exp jeremy $
+d79 1
+a79 1
+		     $WOTD = $1;
+d132 5
+a136 1
+    if($message =~ /(when is the )?next (meeting|GUM|install)\?/i){
+d141 5
+a145 1
+	    &report_news_information();
+a147 2
+
+    } # Endif !$addressed
+d194 23
+a216 1
+sub report_news_information(){
+d218 1
+d224 6
+a229 1
+   $statement = "SELECT title,date,author,author_email,text from news ORDER by id DESC LIMIT 1";
+d234 1
+a234 1
+   &say($ref->{author} . " stated on " .$ref->{date} ." ". $ref->{text});
+@
+
+
+1.24
+log
+@added more monkey sayings
+@
+text
+@d2 1
+a2 1
+# $Id: myRoutines.pl,v 1.23 2001/12/24 20:31:09 jeremy Exp jeremy $
+a73 4
+		  # Be quiet most of the time
+          if($val =~ /It\'s pretty quiet in here/ && (int(rand(10)) > 7)){
+		     $val = $factoid[rand($#factoid)];
+	      }
+d253 1
+a253 1
+      $val = "It's pretty quiet in here.";
+@
+
+
+1.23
+log
+@Less spouting when a fact isn't known
+@
+text
+@d2 1
+a2 1
+# $Id: myRoutines.pl,v 1.22 2001/12/16 01:49:35 jeremy Exp jeremy $
+d14 8
+@
+
+
+1.22
+log
+@regexp fix
+@
+text
+@d2 1
+a2 1
+# $Id: myRoutines.pl,v 1.21 2001/12/16 01:40:02 jeremy Exp jeremy $
+d66 2
+a67 1
+          if($val =~ /It\'s pretty quiet in here/){
+@
+
+
+1.21
+log
+@changed probability for new wotd
+@
+text
+@d2 1
+a2 1
+# $Id: myRoutines.pl,v 1.20 2001/12/15 20:15:54 jeremy Exp jeremy $
+d127 1
+a127 1
+    if($message =~ /(when is the) next (meeting|GUM|install)\?/i){
+@
+
+
+1.20
+log
+@Fixing $WOTD_USER setting
+@
+text
+@d2 1
+a2 1
+# $Id: myRoutines.pl,v 1.19 2001/12/12 13:49:00 jeremy Exp jeremy $
+d103 3
+a105 2
+	# word. Be sure not to words when $who is not known.
+	if(!$WOTD && ($who ne "") && (int(rand(100)) < 20)){
+@
+
+
+1.19
+log
+@Minor change to word of the day to ensure that a giver of the word is known.
+@
+text
+@d2 1
+a2 1
+# $Id: myRoutines.pl,v 1.18 2001/12/11 03:11:38 jeremy Exp jeremy $
+d104 1
+a104 1
+	if(!$WOTD && ($who ne "") && (int(rand(100)) < 30)){
+d109 1
+d113 1
+a113 1
+		  $WOTD_USER = $who;
+@
+
+
+1.18
+log
+@limiting results by one .. historical seperation for announcements db
+@
+text
+@d2 1
+a2 1
+# $Id: myRoutines.pl,v 1.17 2001/12/11 00:24:10 jeremy Exp jeremy $
+d103 2
+a104 2
+	# word
+	if(!$WOTD && (int(rand(100)) < 30)){
+@
+
+
+1.17
+log
+@Added calls to get next GUM/Install fest & news from wplug databases.
+Added more reports to the wotd game
+@
+text
+@d2 1
+a2 1
+# $Id: myRoutines.pl,v 1.16 2001/12/10 19:53:30 jeremy Exp jeremy $
+d150 1
+a150 1
+   $statement = "SELECT * from announcements";
+d188 1
+a188 1
+   $statement = "SELECT title,date,author,author_email,text from news ORDER by id DESC";
+@
+
+
+1.16
+log
+@Added user tracking to wotd game
+@
+text
+@d2 3
+a4 1
+# $Id: myRoutines.pl,v 1.15 2001/12/10 05:11:34 jeremy Exp jeremy $
+d81 1
+a81 1
+	      return ("$who: The word of the day is $WOTD. I learned it from $WHO_USER on " . strftime("%c",localtime($WOTD_AGE)) ) if $WOTD;
+d125 9
+d140 63
+d205 1
+a205 1
+   $reply = "$who: You said the word of the day! It was $WOTD!\n";
+@
+
+
+1.15
+log
+@Changed WOTD routine slightly. Some bugs. Think they are worked out
+Should be a good random word selection method now.
+@
+text
+@d2 1
+a2 1
+# $Id: myRoutines.pl,v 1.14 2001/12/10 04:00:36 jeremy Exp jeremy $
+d74 1
+d79 1
+a79 1
+	      return ("$who: The word of the day is $WOTD") if $WOTD;
+d87 1
+a87 1
+		   return "That was fun";
+d110 1
+d120 1
+d134 1
+@
+
+
+1.14
+log
+@fine tuning wotd game
+@
+text
+@d2 1
+a2 1
+# $Id: myRoutines.pl,v 1.13 2001/12/10 03:27:00 jeremy Exp jeremy $
+d70 2
+a71 1
+	      if(length($WOTD) >= $WOTD_LENGTH){ 
+d85 2
+a86 2
+		   $val =  &exclaim_wotd();
+		   return $val;
+d103 1
+@
+
+
+1.13
+log
+@increased the probability that a new word would get picked
+@
+text
+@d2 1
+a2 1
+# $Id: myRoutines.pl,v 1.12 2001/12/10 01:42:05 jeremy Exp jeremy $
+d126 1
+a126 1
+   $reply = "$who: said the word of the day! Hooray!\n";
+@
+
+
+1.12
+log
+@Less agressive at picking a new word
+@
+text
+@d2 1
+a2 1
+# $Id: myRoutines.pl,v 1.11 2001/12/10 01:30:21 jeremy Exp jeremy $
+d18 3
+d70 1
+a70 1
+	      if(length($WOTD) >= 5){ 
+d100 1
+a100 1
+	if(!$WOTD && (int(rand(100)) > 90)){
+d104 1
+a104 1
+	   if(length($WOTD) <= 5){
+@
+
+
+1.11
+log
+@Added more to the word f the day game
+@
+text
+@d2 1
+a2 1
+# $Id: myRoutines.pl,v 1.10 2001/12/10 01:08:29 jeremy Exp jeremy $
+d95 3
+a97 1
+	if(!$WOTD ){
+@
+
+
+1.10
+log
+@word of the day support
+@
+text
+@d2 1
+a2 1
+# $Id$
+d67 5
+a71 2
+	      $WOTD = $1;
+	      return ("Gotcha. Word of the day saved ($WOTD).");
+d75 1
+a75 1
+		  return ("$who: There is no word of the day, today.");
+d81 2
+a82 1
+		   return &exclaim_wotd();
+d107 1
+a107 1
+	if($WOTD_AGE && (time - $WOTD_AGE) > 30){ # There are 86,400 seconds in one day
+d121 1
+a121 1
+   $reply = "$who: $WOTD is the word of the day! Hooray!\n";
+@
+
+
+1.9
+log
+@up'd monkeybot's timeout for idle channels
+@
+text
+@d2 1
+a2 1
+# Kevin A. Lenzo
+d65 8
+d77 3
+a79 1
+    }
+d84 4
+a87 4
+	# rot13 it
+	my $reply = $1;
+	$reply =~ y/A-Za-z/N-ZA-Mn-za-m/;
+	return $reply;
+d90 21
+d113 9
+@
+
+
+1.8
+log
+@Giving monkeybot a more random response to factoid command
+@
+text
+@d15 2
+a16 2
+# Idle out in X seconds
+$IDLE_OUT = 900;
+@
+
+
+1.7
+log
+@Trying to make monkeybot more random and not fail to find a random thing
+to say
+@
+text
+@d9 6
+d62 1
+a62 1
+		     $val = "Quiet you! I don't feel like reciting a fact right now.";
+@
+
+
+1.6
+log
+@random db selection
+@
+text
+@d95 6
+@
+
+
+1.5
+log
+@Changed timeout to 15 minutes
+@
+text
+@d45 1
+a45 1
+	$SIG{ALRM}    = sub { &say(&make_random_statement("is")); };
+d54 1
+a54 1
+          my $val = &make_random_statement("are");
+d110 8
+@
+
+
+1.4
+log
+@hoorah for new features
+@
+text
+@d10 1
+a10 1
+$IDLE_OUT = 1800;
+@
+
+
+1.3
+log
+@Silly code placement error .. needed to move rand into do while loop
+@
+text
+@d45 1
+a45 1
+	$SIG{ALRM}    = sub { &say(&make_random_statement); };
+d49 11
+a59 4
+	# only if the infobot is addressed
+	if ($message =~ /how (the hell )?are (ya|you)( doin\'?g?)?\?*$/) {
+	    return $howAreYa[rand($#howAreYa)];
+	}
+d81 3
+a83 1
+   $dbname = "is";
+d87 3
+d94 6
+a99 3
+      srand(time);
+      $key = int(rand $#key_array);
+      $val = $key_array[$key] . " is ";
+d102 1
+a102 1
+   while($ans =~ /(\<reply\>|\$who)+/gi && $count < 5);
+d104 1
+a104 1
+   if($count >= 5){
+@
+
+
+1.2
+log
+@random talking code
+@
+text
+@a77 3
+   srand(time);
+   $key = int(rand $#key_array);
+
+d82 2
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d9 4
+d43 5
+d69 28
+@

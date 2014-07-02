@@ -1,0 +1,8 @@
+backup/
+*.pag
+*.dir
+*.db
+*.log
+*.tar.gz
+*.dump
+*.out

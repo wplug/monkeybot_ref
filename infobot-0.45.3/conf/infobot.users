@@ -1,0 +1,34 @@
+#
+# User File (c) 1998 Infobot & Associates
+#
+# FLAGS
+# ----------------------
+# i   Ignored Flag
+# f   MLF Usage Allowed
+# t   Teaching Allowed
+# r   Removing Allowed
+# m   Modifying Allowed
+# c   Part/Join Allowed
+# s   Searching Allowed (possibly computationally expensive)
+# S   user can make bot Say things
+# e   Extra Privs        [ not implemented robustly: AVOID ]
+# p   oP on channel by public request
+# ----------------------
+# o   Owner Flag
+# ----------------------
+#
+# recommended default user flags: +trmc
+
+UserEntry default {
+	flags +trmcs;
+}
+
+# here's an example entry
+
+UserEntry Gerr {
+	name  "jeremy";
+	title "daddy";
+	flags +ftrmcsSope;
+	pass  REMOVED_BY_PAT;
+	mask  *!jeremy@*.wa.home.com;
+}

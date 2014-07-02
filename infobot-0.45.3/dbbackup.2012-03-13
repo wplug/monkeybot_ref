@@ -1,0 +1,14 @@
+#!/bin/bash
+
+date=`date "+%Y-%m-%d"`
+
+cd /home/monkeybot/infobot-0.45.3
+
+for db in *-{is,are}.db; do 
+    mv backup/$db.dump backup/$db.dump.prev
+    ./scripts/dump_db $db | sort > backup/$db.dump ;
+    diff backup/$db.dump backup/$db.dump.prev > backup/changes/$db.$date
+    if [ ! -s backup/changes/$db.$date ]; then
+	rm backup/changes/$db.$date; 
+    fi
+done
